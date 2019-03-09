@@ -31,12 +31,30 @@ $ git pull origin master
 $ sudo apt-get install python3-pip
 ```
 
-- Install Reguirements
+- Install Requirements
 ```sh
 $ pip3 install -r requirements.txt
 ```
+- To run face recognition training and dataset folders are required. Create emplty folders using: 
+```sh
+$ mkdir trainer dataset
+```
 
-## Run Code
+## Run Simple face detect
+- To run simple face detecect
 ```sh
 $ python3 run.py
+```
+## Run Simple face recognition
+- To create face dataset
+```sh
+$ python3 face_dataset.py
+```
+- To train system with available faces
+```sh
+$ python3 train_face.py
+```
+- To finally detect face
+```sh
+$ python3 recognise_face.py
 ```
