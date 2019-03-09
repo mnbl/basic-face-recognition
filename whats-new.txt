@@ -1,0 +1,3 @@
+Version 1.0: Basic app for face detection done
+    1. OpenCV used for video input from webcam
+    2. Harr Cascade used for face detection
