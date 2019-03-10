@@ -1,4 +1,4 @@
-## Pthon Facial Recognition System
+## Python Facial Recognition System
 Facial Recognition System using Python
 
 > This version is tested to work on Ubuntu 18.02 with Python 3.6.7
