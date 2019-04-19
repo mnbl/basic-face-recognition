@@ -29,18 +29,5 @@ $ mkdir trainer dataset
 ## Run Face Recognition
 - To create face dataset
 ```sh
-<<<<<<< HEAD
 $ python3 home.py
 ```
-=======
-$ python3 face_dataset.py
-```
-- To train system with available faces
-```sh
-$ python3 train_face.py
-```
-- To finally detect face
-```sh
-$ python3 recognise_face.py
-```
->>>>>>> 706507ddb49122f914d475d9249c397a3606c8a6
