@@ -8,7 +8,7 @@ if conn != 0:
     print("Connection Successful")
 else:
     print('Connection Failed')
-    exit
+    exit()
 
 # Creating table if it doesn't already exists
 conn.execute('''create table if not exists facedata ( id int primary key, name char(20) not null)''')
@@ -44,7 +44,7 @@ while(True):
 
     for (x,y,w,h) in faces:
 
-        cv2.rectangle(img, (x,y), (x+w,y+h), (255,0,0), 2)     
+        cv2.rectangle(img, (x,y), (x+w,y+h), (255,0,0), 2)
         count += 1
 
         # Save the captured image into the datasets folder
